@@ -1,0 +1,339 @@
+/*-----------START PAGE------------*/
+.start-page
+{
+    box-sizing: border-box;
+    height: 658px;
+    width: vw;
+    margin-top: 74px;
+    padding-top: 200px;
+    line-height: 3px;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url('../image/bgimg.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+.start-page h1
+{
+    color: white;
+    font-weight: bolder;
+    font-size: 500%;
+}
+.start-page h2
+{
+    color: white;
+    font-weight: bold;
+}
+.start-page p
+{
+    color: rgb(194, 194, 194);
+    font-weight: bold;
+}
+
+/*-----------ABOUT------------*/
+.about
+{
+    width: vh;
+    padding: 100px 0px 70px;
+}
+.about h1{
+    font-weight: bold;
+    font-style: italic;
+}
+.my-img
+{
+    padding: 20px 0px;
+}
+.my-img img{
+    border-radius: 25% 0px;
+}
+.my-info
+{
+    padding: 20px 0px;
+}
+.my-info h2{
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: oblique;
+}
+.my-info p{
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: oblique;
+    color: rgb(150, 150, 150);
+}
+.my-info span{
+    font-weight: bold;
+    padding-right: 20px;
+    color: rgb(109, 109, 109);
+}
+
+/*-----------MY PROJECT------------*/
+.projects
+{
+    width: 100%;
+    padding: 100px 0px 120px;
+}
+.projects h1{
+    font-weight: bold;
+    font-style: oblique;
+}
+.pro-info
+{
+    padding: 20px 0px;
+}
+.pro-info img{
+    border-radius: 5%;
+}
+.pro-info span{
+    font-weight: normal;
+    font-style: oblique;
+}
+
+/*-----------MY SKILLS------------*/
+.skills
+{
+    padding: 100px 0px 100px;
+}
+.my-progress
+{
+    padding: 20px 0px;
+}
+.my-reward
+{
+    padding: 20px 0px;
+}
+.skills h1,span{
+    font-weight: bold;
+    font-style: oblique;
+}
+.rewards
+{
+    display: inline-block;
+    margin: 5px;
+    width: 45%;
+    vertical-align: middle;
+    border: 2px solid #17a2b8;
+    text-align: center;
+    padding: 20px 1px;
+    border-radius: 7px;
+    color: #17a2b8;
+    font-weight: bold;
+}
+/*------------MY TEAM------------*/
+.my-team
+{
+    padding: 100px 0px 50px;
+}
+.my-team h1{
+    font-weight: bold;
+    font-style: oblique;
+}
+.my-team-info{
+    padding: 20px 0px 0px;
+}
+.my-team-info img{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    margin: 10px;
+}
+.my-team-info h3
+{
+    font-weight: bold;
+    font-style: italic;
+}
+.my-team-info h5
+{
+    font-weight: bold;
+    color: #888888;
+}
+.my-team-info p
+{
+    font-style: italic;
+    color: #4d4d4d;
+}
+/*----------media link-----------*/
+.medialink
+{
+    text-decoration: none;
+    padding: 8px 0px 20px;
+    border: 2px solid;
+    color: white;
+    height: 50px;
+    width: 50px;
+    margin: 20px 5px;
+    border-radius: 5px;
+}
+.medialink:hover
+{
+    text-decoration: none;
+    padding: 8px 0px 20px;
+    border: 2px solid;
+    color: rgb(190, 180, 180);
+    height: 50px;
+    width: 50px;
+    margin: 20px 5px;
+    border-radius: 5px;
+}
+/*----------media----------*/
+@media(min-width:992px){
+    .start-page
+    {
+        box-sizing: border-box;
+        height: 658px;
+        width: 100%;
+        margin-top: 74px;
+        padding-top: 200px;
+        line-height: 3px;
+        background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url('../image/bgimg.jpg');
+        background-size: cover;
+        background-attachment: fixed;
+        
+    }
+    .start-page h1
+    {
+        color: white;
+        font-weight: bolder;
+        font-size: 500%;
+    }
+    .start-page h2
+    {
+        color: white;
+        font-weight: bold;
+    }
+    .start-page p
+    {
+        color: rgb(194, 194, 194);
+        font-weight: bold;
+    }
+}
+@media(min-width:768px) and (max-width:991px){
+    .start-page
+{
+    box-sizing: border-box;
+    height: 658px;
+    width: 100%;
+    margin-top: 74px;
+    padding-top: 200px;
+    line-height: 3px;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url('../image/bgimg.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+.start-page h1
+{
+    color: white;
+    font-weight: bolder;
+    font-size: 500%;
+}
+.start-page h2
+{
+    color: white;
+    font-weight: bold;
+}
+.start-page p
+{
+    color: rgb(194, 194, 194);
+    font-weight: bold;
+}
+}
+@media(min-width:575px) and (max-width:767px){
+    .start-page
+{
+    box-sizing: border-box;
+    height: 658px;
+    width: 100%;
+    margin-top: 74px;
+    padding-top: 200px;
+    line-height: 3px;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url('../image/bgimg.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+.start-page h1
+{
+    color: white;
+    font-weight: bolder;
+    font-size: 300%;
+}
+.start-page h2
+{
+    color: white;
+    font-weight: bold;
+    font-size: 200%;
+}
+.start-page p
+{
+    color: rgb(194, 194, 194);
+    font-weight: bold;
+    font-size: 85%;
+}
+}
+@media(min-width:480px) and (max-width:574px){
+    .start-page
+    {
+        box-sizing: border-box;
+        height: 658px;
+        width: 100%;
+        margin-top: 74px;
+        padding-top: 200px;
+        line-height: 3px;
+        background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url('../image/bgimg.jpg');
+        background-size: cover;
+        background-attachment: fixed;
+        
+    }
+    .start-page h1
+    {
+        color: white;
+        font-weight: bolder;
+        font-size: 300%;
+    }
+    .start-page h2
+    {
+        color: white;
+        font-weight: bold;
+        font-size: 200%;
+    }
+    .start-page p
+    {
+        color: rgb(194, 194, 194);
+        font-weight: bold;
+        font-size: 85%;
+    }
+}
+@media(max-width:479px){
+    .start-page
+    {
+        box-sizing: border-box;
+        height: 658px;
+        width: vw;
+        margin-top: 74px;
+        padding-top: 200px;
+        line-height: 3px;
+        background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url('../image/bgimg.jpg');
+        background-size: cover;
+        background-attachment: fixed;
+        
+    }
+    .start-page h1
+    {
+        color: white;
+        font-weight: bolder;
+        font-size: 300%;
+    }
+    .start-page h2
+    {
+        color: white;
+        font-weight: bold;
+        font-size: 200%;
+    }
+    .start-page p
+    {
+        color: rgb(194, 194, 194);
+        font-weight: bold;
+        font-size: 85%;
+    }
+}
