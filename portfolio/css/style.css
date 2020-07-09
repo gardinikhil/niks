@@ -348,6 +348,7 @@ body{
 @media (max-width:399px){
     .my-img img{
         transform: rotate(90deg);
+        margin-bottom: 10px;
     }
      .start-page h1
     {
