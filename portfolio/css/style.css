@@ -349,4 +349,22 @@ body{
     .my-img img{
         transform: rotate(90deg);
     }
+     .start-page h1
+    {
+        color: white;
+        font-weight: bolder;
+        font-size: 300%;
+    }
+    .start-page h2
+    {
+        color: white;
+        font-weight: bold;
+        font-size: 200%;
+    }
+    .start-page p
+    {
+        color: rgb(194, 194, 194);
+        font-weight: bold;
+        font-size: 85%;
+    }
 }
