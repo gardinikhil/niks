@@ -113,9 +113,10 @@ body{
 }
 .rewards
 {
+    box-sizing: border-box;
     display: inline-block;
-    margin: 5px;
-    width: 45%;
+    width: 49%;
+    margin-top: 5px;
     vertical-align: middle;
     border: 2px solid #17a2b8;
     text-align: center;
@@ -309,7 +310,7 @@ body{
         font-size: 85%;
     }
 }
-@media(max-width:479px) and (min-width:0px){
+@media(max-width:479px) and (min-width:400px){
     .start-page
     {
         box-sizing: border-box;
@@ -340,6 +341,13 @@ body{
         color: rgb(194, 194, 194);
         font-weight: bold;
         font-size: 85%;
+    }
+}
+
+/*----------for less than 400px----------*/
+@media (max-width:399px){
+    .my-img img{
+        transform: rotate(90deg);
     }
 }
 
