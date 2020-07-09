@@ -1,3 +1,8 @@
+body{
+    box-sizing: border-box;
+    width: vw;
+    height: vh;
+}
 /*-----------START PAGE------------*/
 .start-page
 {
@@ -48,7 +53,7 @@
 }
 .my-info
 {
-    padding: 20px 0px;
+    overflow: auto;
 }
 .my-info h2{
     font-weight: bold;
@@ -304,7 +309,7 @@
         font-size: 85%;
     }
 }
-@media(max-width:479px){
+@media(max-width:479px) and (min-width:0px){
     .start-page
     {
         box-sizing: border-box;
@@ -337,3 +342,4 @@
         font-size: 85%;
     }
 }
+
