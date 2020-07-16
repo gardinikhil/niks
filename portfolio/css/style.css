@@ -346,10 +346,6 @@ body{
 
 /*----------for less than 400px----------*/
 @media (max-width:399px){
-    .my-img img{
-        transform: rotate(90deg);
-        margin-bottom: 10px;
-    }
      .start-page h1
     {
         color: white;
